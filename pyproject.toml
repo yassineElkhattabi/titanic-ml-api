@@ -1,0 +1,13 @@
+[project]
+name = "titanic-ml-api"
+version = "1.0.0"
+description = "Titanic survival prediction API built with FastAPI and scikit-learn"
+requires-python = ">=3.13"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pandas",
+    "scikit-learn==1.6.1",
+    "joblib"
+]
