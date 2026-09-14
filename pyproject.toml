@@ -2,7 +2,8 @@
 name = "titanic-ml-api"
 version = "1.0.0"
 description = "Titanic survival prediction API built with FastAPI and scikit-learn"
-requires-python = ">=3.13"
+
+requires-python = ">=3.13,<3.14"
 
 dependencies = [
     "fastapi",
